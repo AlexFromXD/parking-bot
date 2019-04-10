@@ -1,0 +1,14 @@
+{
+    "type": "template",
+    "altText": "請開啟您的GPS定位",
+    "template": {
+        "type": "buttons",
+        "text": "請開啟GPS定位！",
+        "actions": [
+            {
+              "type": "location",
+              "label": "分享我的位置"
+            }
+        ]
+    }
+}
