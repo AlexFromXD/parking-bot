@@ -56,6 +56,8 @@ module.exports = async event => {
                                                 ft.body.contents[1].contents[0].contents[1].text = r.address
                                                 ft.body.contents[1].contents[1].contents[1].text = `${r.distance}公尺`
                                                 ft.body.contents[1].contents[2].contents[1].text = r.duration
+                                                ft.footer.contents[0].action.uri = `https://www.google.com.tw/maps/dir/${lat},${lng}/${r.lat},${r.lng}?mode=driving`
+
                                                 return ft
                                             })
                         if (flexContents.length === 0) {
