@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "linebot": "^1.4.1"
+    "linebot": "^1.4.1",
+    "request": "^2.88.0"
   }
 }
